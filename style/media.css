@@ -1,0 +1,1017 @@
+@media (max-width: 1400px) {
+  .prev-btn {
+    left: 0;
+  }
+
+  .next-btn {
+    right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .nav-list {
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 0;
+    height: 100dvh;
+    width: 50%;
+    right: -100%;
+    background: #ef7f1a;
+    z-index: 11;
+    overflow: auto;
+    transition: 0.5s linear;
+  }
+
+  .nav-list.active {
+    right: 0;
+  }
+
+  .nav-link {
+    color: white;
+    font-size: 22px;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+  .nav-link::before {
+    content: none;
+  }
+
+  .nav-btn-byrger {
+    display: block;
+  }
+
+  /*Services*/
+
+  .services-block {
+    width: 800px;
+    padding: 50px;
+  }
+
+  .services-swiper-titles {
+    max-width: 321px;
+  }
+
+  /* === products === */
+  /* === products === */
+  /* === products === */
+
+  .products-carousel {
+    align-items: center;
+  }
+
+  .slide img {
+    width: 40%;
+    object-fit: cover;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+
+  .slide-content {
+    padding: 50px 32px 50px;
+  }
+
+  .slide-content span {
+    font-size: 16px;
+  }
+
+  /* === ABOUT === */
+  /* === ABOUT === */
+  /* === ABOUT === */
+
+  .about-description-info-logo {
+    margin-top: 21px;
+    margin-left: 26px;
+    width: 140px;
+    height: 101px;
+  }
+
+  .about-description-info-text {
+    top: 160px;
+    right: 6px;
+  }
+
+  .about-certificate-wrap {
+    width: 795px;
+  }
+
+  .about-info {
+    padding: 68px 0 82px;
+    row-gap: 62px;
+    column-gap: 41px;
+  }
+
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+
+  .portfolio-wrap {
+    width: 732px;
+  }
+
+  .contacts-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  /*HEADER*/
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    width: 100%;
+  }
+
+  /* ==========  SERVICES ==========  */
+  /* ==========  SERVICES ==========  */
+  .services-card {
+    width: 90%;
+  }
+
+  .services-block {
+    width: 500px;
+  }
+
+  .services-swiper {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 0;
+  }
+  .services-swiper-titles {
+    min-width: 100%;
+    margin-top: 30px;
+  }
+
+  .services-swiper-titles h2 {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .services-swiper-titles p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services-drops {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* === products === */
+  /* === products === */
+  /* === products === */
+
+  .carousel {
+    height: 545px;
+  }
+  .slide {
+    flex-direction: column;
+  }
+
+  .prev-btn,
+  .next-btn {
+    display: none;
+  }
+
+  .slide img {
+    margin: 0 auto;
+  }
+
+  .slide-content p {
+    margin: 15px 0;
+  }
+
+  /* === ABOUT === */
+  /* === ABOUT === */
+  /* === ABOUT === */
+
+  .about-description-info-logo {
+    width: 90px;
+    height: 64px;
+  }
+
+  .about-description-info-text {
+    top: 100px;
+  }
+
+  .about-reviews-info {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .about-certificate {
+    padding: 94px 62px;
+  }
+  .about-certificate-wrap {
+    width: 600px;
+  }
+
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  .portfolio-wrap {
+    width: 474px;
+  }
+
+  .pop-up {
+    width: 760px;
+  }
+  .swiper-pop-up {
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .pop-up-top {
+    gap: 20px;
+  }
+
+  .pop-up-info-top {
+    flex-direction: column-reverse;
+    align-items: baseline;
+    gap: 20px;
+  }
+
+  /* === question === */
+  /* === question === */
+  /* === question === */
+
+  .question-block-text {
+    font-size: 16px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-info {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .nav-form {
+    width: 500px;
+    padding: 50px;
+  }
+
+  .nav-logo {
+    width: 70px;
+  }
+
+  .btn {
+    width: 160px;
+    padding: 10px;
+  }
+
+  /*HEADER*/
+  .header-card-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .header-title {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+
+  .header-span {
+    font-size: 20px;
+  }
+
+  /* ==========  SERVICES ==========  */
+  /* ==========  SERVICES ==========  */
+
+  .services-card {
+    width: 100%;
+  }
+
+  /* === products === */
+  /* === products === */
+  /* === products === */
+
+  .slide-content h2 {
+    font-size: 25px;
+  }
+
+  .slide-content span {
+    font-size: 14px;
+  }
+
+  /* === ABOUT === */
+  /* === ABOUT === */
+  /* === ABOUT === */
+
+  .about-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .about-description {
+    flex-direction: column;
+  }
+  .about-description-info {
+    width: 100%;
+    padding-bottom: 190px;
+  }
+
+  .about-reviews-btn {
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px 10px 12px;
+  }
+  .about-reviews-btn-wrap p {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .about-reviews {
+    padding: 66px 50px 46px;
+  }
+  .about-reviews-btn-next {
+    right: 12px;
+  }
+
+  .about-reviews-btn-prev {
+    left: 12px;
+  }
+  .about-reviews-text {
+    margin-top: 28px;
+  }
+
+  .about-reviews-form {
+    width: 500px;
+    padding: 56px 50px 42px;
+  }
+
+  .about-certificate {
+    padding: 94px 77px;
+  }
+
+  .about-certificate-wrap {
+    width: 395px;
+  }
+
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+
+  .portfolio-wrap {
+    width: 214px;
+    margin: 22px auto 24px;
+  }
+
+  .pop-up {
+    width: 560px;
+  }
+
+  .pop-up-top {
+    flex-direction: column-reverse;
+  }
+
+  .pop-up-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .swiper-pop-up {
+    margin: 20px auto;
+  }
+
+  /* === question === */
+  /* === question === */
+  /* === question === */
+
+  .question-block {
+    height: 60px;
+  }
+  .question-block-text,
+  .answer-block-text {
+    font-size: 14px;
+  }
+
+  .answer-block {
+    height: 40px;
+    padding: 0 0 25px 19px;
+  }
+
+  .contacts-form::after {
+    background: unset;
+  }
+
+  .contacts-info-text {
+    margin-top: 30px;
+    max-width: 300px;
+  }
+
+  .contacts-info {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-form {
+    width: 400px;
+    padding: 20px;
+  }
+
+  .nav-btns {
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 8;
+    transition: 0.5s;
+  }
+
+  .nav-btns.active {
+    bottom: -100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .form-title {
+    font-size: 19px;
+  }
+
+  .form-input {
+    width: 315px;
+  }
+
+  .form-input::placeholder {
+    font-size: 14px;
+  }
+
+  .yes {
+    justify-content: center;
+  }
+  .form-text {
+    font-size: 12px;
+  }
+
+  .form-btn {
+    font-size: 14px;
+  }
+
+  .form-close {
+    top: 5px;
+    right: 10px;
+  }
+
+  /*HEADER*/
+  .header-cards {
+    flex-wrap: wrap;
+  }
+  .header-card {
+    width: 40%;
+  }
+  .header-card {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .header-left {
+    text-align: center;
+  }
+  .header {
+    height: 700px;
+  }
+  .header-title {
+    width: 100%;
+  }
+
+  /* ==========  SERVICES ==========  */
+  /* ==========  SERVICES ==========  */
+
+  .services {
+    padding: 50px 0;
+  }
+  .services-cards {
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+  .services-item-title {
+    font-size: 19px;
+  }
+
+  .cervices-item-text {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .services-item-titles img {
+    width: 50px;
+    object-fit: cover;
+  }
+
+  .services-block {
+    width: 400px;
+    padding: 30px;
+    padding-top: 50px;
+  }
+
+  .services-swiper-titles h2 {
+    font-size: 20px;
+  }
+
+  .services-swiper-titles p {
+    font-size: 14px;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .services-block-span {
+    top: 5px;
+    right: 10px;
+    padding: 5px;
+    font-size: 25px;
+  }
+
+  /* === products === */
+  /* === products === */
+  /* === products === */
+  .carousel {
+    height: 481px;
+  }
+
+  .carousel-buttons {
+    flex-wrap: wrap;
+  }
+
+  .carousel-btn {
+    width: 45%;
+    padding: 10px 5px;
+  }
+
+  .slide-content {
+    padding: 20px;
+  }
+
+  .slide-content span {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .warranty {
+    padding: 50px 0;
+  }
+
+  /* === ABOUT === */
+  /* === ABOUT === */
+  /* === ABOUT === */
+  .about-content-buttons {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .about-reviews-text p {
+    font-size: 12px;
+  }
+  .about-reviews {
+    padding: 76px 50px 46px;
+  }
+
+  .about-reviews-form {
+    width: 90%;
+  }
+
+  .about-reviews-form-input,
+  .about-reviews-form-textaria {
+    width: 100%;
+  }
+
+  .about-reviews-form-btn-submit {
+    margin-top: 17px;
+    margin-left: calc(50% - 100px);
+    padding: 12px 50px;
+    font-size: 14px;
+  }
+
+  .about-certificate {
+    padding: 94px 27px;
+  }
+
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+
+  .pop-up {
+    width: 90%;
+  }
+
+  .contacts-form {
+    width: 90%;
+  }
+  .contacts-form-inputs {
+    width: 90%;
+  }
+
+  .contacts-info {
+    margin-left: 20px;
+  }
+
+  .contacts-block {
+    margin-top: 28px;
+  }
+
+  .contacts-input {
+    height: 42px;
+  }
+  .contacts-textarea {
+    height: 80px;
+  }
+
+  .contacts-form-btn {
+    padding: 16px 28px;
+    font-size: 14px;
+  }
+  .contacts-checkbox p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .form-title {
+    font-size: 15px;
+  }
+  .nav-form {
+    width: 300px;
+    padding: 10px;
+  }
+  .form-input {
+    width: 100%;
+    height: 30px;
+  }
+
+  .yes {
+    width: 77%;
+  }
+
+  .form-yes {
+    width: 15px;
+    height: 15px;
+  }
+
+  .form-text {
+    width: auto;
+  }
+
+  .form-close {
+    font-size: 17px;
+  }
+
+  .form-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 30px;
+  }
+
+  .form-title {
+    gap: 10px;
+  }
+
+  /*HEADER*/
+  .header-title {
+    font-size: 21px;
+    width: 100%;
+  }
+  .header-span {
+    font-size: 18px;
+  }
+
+  .header-card {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .header-left {
+    text-align: center;
+  }
+  .header {
+    height: 740px;
+  }
+
+  /* ==========  SERVICES ==========  */
+  /* ==========  SERVICES ==========  */
+
+  .services-card-icon {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .services-block {
+    width: 320px;
+  }
+
+  .services-swiper-titles {
+    margin-top: 15px;
+  }
+
+  .services-swiper-titles h2 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .services-swiper-titles p {
+    font-size: 12px;
+  }
+
+  .services-drop-items {
+    width: 280px;
+  }
+
+  .services-drop-item {
+    width: 190px;
+  }
+
+  /* === products === */
+  /* === products === */
+  /* === products === */
+
+  .slide img {
+    width: 65%;
+  }
+
+  .carousel-btn,
+  .slide-content p {
+    font-size: 16px;
+  }
+
+  .carousel-buttons {
+    margin: 20px 0;
+  }
+
+  .slide-content {
+    padding: 16px;
+  }
+
+  .slide-content span {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+
+  .warranty-content-card p {
+    margin-top: 15px;
+  }
+
+  .warranty-content-cards {
+    margin-top: 25px;
+  }
+
+  /* === ABOUT === */
+  /* === ABOUT === */
+  /* === ABOUT === */
+
+  .about-description-info-text {
+    font-size: 14px;
+  }
+
+  .about-certificate-wrap {
+    width: 200px;
+  }
+  .about-certificate {
+    padding: 50px 72px;
+    height: 365px;
+  }
+  .about-working-title,
+  .about-working-text {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .about-info-card-title,
+  .about-info-card-desc p {
+    font-size: 14px;
+  }
+
+  .about-info-card-desc {
+    max-width: 200px;
+  }
+
+  .about-info-card {
+    gap: 10px;
+  }
+
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  /* ==== portfolio ==== */
+  .pop-up {
+    padding-top: 25px;
+  }
+
+  .pop-up-close {
+    top: 5px;
+    right: 12px;
+    font-size: 30px;
+  }
+
+  .pop-up-info-btn {
+    padding: 7px 11px 9px 8px;
+  }
+  .swiper-pop-up,
+  .pop-up-slider {
+    width: 280px;
+  }
+
+  .pop-up-info-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-btns {
+    flex-direction: column;
+  }
+
+  /*HEADER*/
+  .header-title {
+    font-size: 16px;
+  }
+  .header-span {
+    font-size: 16px;
+  }
+  .header-card-text {
+    font-size: 12px;
+  }
+
+  /* ==========  SERVICES ==========  */
+  /* ==========  SERVICES ==========  */
+
+  .services {
+    padding: 30px 0;
+  }
+
+  .services-cards {
+    margin-top: 20px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+  .services-item {
+    padding: 0 20px;
+  }
+
+  .services-item-titles {
+    gap: 10px;
+  }
+  .services-item-title {
+    font-size: 14px;
+    width: 50%;
+  }
+
+  .cervices-item-text {
+    font-size: 11px;
+    width: 80%;
+  }
+
+  /* === products === */
+  /* === products === */
+  /* === products === */
+
+  .slide-content span {
+    display: none;
+  }
+
+  .slide img {
+    width: 70%;
+  }
+
+  .carousel {
+    height: 320px;
+  }
+
+  /* === ABOUT === */
+  /* === ABOUT === */
+  /* === ABOUT === */
+
+  .about-description-info {
+    padding-bottom: 130px;
+  }
+
+  .about-description-info-logo {
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+
+  .about-description-info-text {
+    font-size: 12px;
+    max-width: 260px;
+  }
+
+  .about-working {
+    padding: 40px 45px;
+  }
+
+  .about-reviews-form {
+    padding: 38px 10px 24px;
+  }
+
+  .about-reviews-form-input {
+    height: 40px;
+  }
+
+  .about-reviews-form-textaria {
+    height: 80px;
+  }
+
+  .about-reviews-form-inputs-wrapper {
+    margin-top: 25px;
+    gap: 15px;
+  }
+
+  .about-reviews-form-title {
+    gap: 14px;
+  }
+
+  .about-reviews-form-btn-close {
+    top: 2px;
+    right: 12px;
+    font-size: 30px;
+  }
+
+  .about-reviews-form-checkbox-wrapper {
+    margin-top: 14px;
+  }
+
+  /* === question === */
+  /* === question === */
+  /* === question === */
+  .question-answer-blocks {
+    margin: 30px auto 0;
+  }
+
+  .question-block {
+    padding: 0 10px;
+  }
+
+  .question-block-text,
+  .answer-block-text {
+    font-size: 12px;
+  }
+  .question-block-text {
+    max-width: 250px;
+  }
+  .question-answer-blocks {
+    width: 95%;
+    gap: 10px;
+  }
+
+  .question-block-arrow {
+    width: 20px;
+    height: 15px;
+  }
+
+  .contacts-form {
+    width: 100%;
+  }
+}
