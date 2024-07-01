@@ -6,7 +6,7 @@
 <ul>
   <li>Проект выполнен за: 15 дней</li>
   <li>Демо онлайн: http://a1002321.xsph.ru/ </li>
-  <li>Код на GitHub:  </li>
+  <li>Код на GitHub: https://github.com/Realex001/window-HTML-CSS-JS.git </li>
 </ul>
 
 <h1>Технологии:</h1>
