@@ -5,7 +5,7 @@
 <p>Данный проект выполнен в учебных целях.</p>
 <ul>
   <li>Проект выполнен за: 15 дней</li>
-  <li>Демо онлайн: http://a1002321.xsph.ru/ </li>
+  <li>Демо онлайн: https://oknahouse-fawn.vercel.app/ </li>
   <li>Код на GitHub: https://github.com/Realex001/window-HTML-CSS-JS.git </li>
 </ul>
 
